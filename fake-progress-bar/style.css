@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+}
+
+main {
+  background-color: rgb(240, 240, 240);
+}
+
+.bar-container {
+  border: 8px rgb(61, 61, 61) solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  width: 40%;
+  margin: auto;
+  margin-top: 36vmin;
+}
+
+.loading-elements {
+  background-color: rgb(51, 135, 141);
+  flex-grow: 1;
+  transition-duration: 15ms;
+}
+
+.loading-elements:hover ~ .loading-elements {
+  background-color: rgb(240, 240, 240);
+}
+
+.loading-elements:active ~ .loading-elements {
+  background-color: rgba(141, 51, 78, 0.192);
+}
