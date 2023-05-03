@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@latest/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Layout</title>
+</head>
+
+<body>
+    <main>
+        <section class="content-wrapper">
+            <!---Shoe one-->
+            <article class="shoe shoe1">
+                <div class="picture">
+                    <div class="alert-badge">
+                        <p class="alert-text">Free Shipping!</p>
+                    </div>
+                    <div class="photographer-info">
+                        <p>Photo by: Maksim Larin</p>
+                    </div>
+                </div>
+                <div class="article-description-wrapper">
+                    <h2 class="shoe-name">Asics</h2>
+                    <p class="shoe-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis,
+                        quis officiis quam impedit
+                        incidunt animi, numquam unde, saepe in consequuntur ipsum quo ab perspiciatis. Adipisci officia
+                        obcaecati provident eveniet odio...</p>
+                </div>
+                <div class="price-and-buy-wrapper">
+                    <div class="price">
+                        <p class="price-text">$65 USD</p>
+                    </div>
+                    <div class="size-quant">
+                        <div class="size-wrapper">
+                            <label for="size">Size:</label>
+                            <select name="size-dropdown" id="size" class="size">
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                            </select>
+                        </div>
+                        <div class="quant-wrapper">
+                            <label for="quant">Quantity:</label>
+                            <select name="quant-dropdown" id="quant" class="quant-drop">
+                                <option value="6  ">1</option>
+                                <option value="7  ">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <label class="color-select" for="color">Color</label>
+                        <input type="radio" name="color" id="color1" class="color-radial s1-color1" value="s1-color1">
+                        <input type="radio" name="color" id="color2" class="color-radial s1-color2" value="s1-color2">
+                        <input type="radio" name="color" id="color2" class="color-radial s1-color3" value="s1-color3">
+
+                    </div>
+                    <button class="add-to-cart" type="button">
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+            <!---Shoe two-->
+            <article class="shoe shoe2">
+
+            </article>
+            <article class="shoe shoe3">shoe 3 PH</article>
+
+        </section>
+    </main>
+</body>
+
+</html>
