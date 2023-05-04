@@ -32,6 +32,7 @@ main {
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.068);
   background-size: 100% 21rem;
   background-repeat: no-repeat;
+  margin-bottom: 1.5rem;
 }
 
 .shoe1 {
