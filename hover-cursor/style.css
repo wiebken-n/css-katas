@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(228, 228, 228);
 }
 .main-grid {
   height: 900px;
@@ -26,13 +26,13 @@ div {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   position: relative;
-  background: radial-gradient(rgb(44, 97, 141) 0%, rgb(29, 63, 95) 60%);
+  background: radial-gradient(rgb(44, 97, 141) 0%, rgb(36, 78, 117) 60%);
   transition: 500ms ease;
   height: 60px;
   width: 60px;
-  border: 5px solid rgb(29, 63, 95);
+  border: 5px solid rgb(36, 78, 117);
   border-radius: 90%;
-  box-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.514);
 }
 
 .bottom {
@@ -63,8 +63,8 @@ div {
 .bi {
   width: auto;
   height: auto;
-  color: rgb(97, 22, 196);
-  box-shadow: 1px 1px 5px rgb(73, 73, 73);
-  background-color: rgb(46, 46, 46);
+  color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 5px rgba(73, 73, 73, 0.425);
+  background-color: rgb(46, 142, 156);
   border-radius: 5px;
 }
