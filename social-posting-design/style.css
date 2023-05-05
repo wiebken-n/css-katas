@@ -1,0 +1,81 @@
+:root {
+  --clr-buttons: rgb(205, 205, 205);
+  --clr-borders: rgb(117, 117, 117);
+  --clr-divider: hsl(0, 0%, 50%);
+  --clr-posttime: hsl(0, 0%, 70%);
+}
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.post-body {
+  margin: auto;
+  margin-top: 25vh;
+  width: 45rem;
+  border: 0.2rem solid var(--clr-borders);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+}
+
+.post-head {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: start;
+  position: relative;
+}
+
+.profile-picture {
+  width: 5.7rem;
+  height: 5.7rem;
+  border-radius: 90%;
+}
+
+.profile-name {
+  font-size: 1.6rem;
+  font-weight: 550;
+  margin-bottom: 0.3rem;
+}
+.post-time {
+  font-size: 1.2rem;
+  margin-top: 0rem;
+  font-weight: 550;
+  color: var(--clr-posttime);
+}
+.options-icon {
+  position: absolute;
+  right: 0.8rem;
+  top: 0rem;
+  font-size: 1.5rem;
+}
+.dots {
+  font-weight: 700;
+  margin-top: 1.2rem;
+}
+
+.post-text {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.interaction-buttons {
+  border-top: 0.125rem solid var(--clr-divider);
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: var(--clr-buttons);
+  font-size: 1.2rem;
+  font-weight: 750;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.8rem 2.4rem 0.8rem 2.4rem;
+}
