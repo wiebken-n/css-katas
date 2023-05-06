@@ -5,6 +5,11 @@ html {
   text-shadow: 0px 0px 2px rgba(112, 112, 112, 0.068);
 }
 
+::selection {
+  background-color: hsl(228, 45%, 55%);
+  color: white;
+}
+
 main {
   margin: auto;
   margin-top: 2rem;
@@ -163,12 +168,16 @@ main {
 .quant-wrapper {
   display: flex;
   gap: 0.95rem;
+  align-items: baseline;
 }
 
 .quant-drop,
 .size {
-  width: 4rem;
-  border: 0;
+  background-color: rgb(255, 255, 255);
+  width: 4.5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  border: 0.05rem solid hsla(0, 0%, 80%, 0.418);
 }
 
 .color {
@@ -227,11 +236,13 @@ main {
 }
 
 .color-radial:hover,
-.color-radial:active,
-.color-radial:focus {
-  box-shadow: 0 0 7px 2px rgba(7, 10, 36, 0.486);
+.color-radial:active {
+  box-shadow: 0 0 8px 3px rgba(7, 10, 36, 0.486);
 }
 
+.color-radial:focus {
+  box-shadow: 0 0 6px 4px rgba(7, 10, 36, 0.685);
+}
 .add-to-cart {
   background-color: #485fb9;
   border: none;
@@ -254,7 +265,25 @@ main {
   background-color: rgb(52, 78, 180);
 }
 .add-to-cart:active {
-  box-shadow: 0 0 7px 2px rgba(13, 13, 53, 0.534);
+  box-shadow: 0 0 8px 4px rgba(13, 13, 53, 0.534);
   color: rgb(255, 255, 255);
   background-color: rgb(56, 89, 221);
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 8px;
+  }
 }
